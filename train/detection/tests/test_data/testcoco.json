@@ -1,0 +1,46 @@
+{
+    "info": {},
+    "images": [
+        {
+            "id": 0,
+            "file_name": "./images/test_detection.png",
+            "height": 169,
+            "width": 154,
+            "date_captured": "16-12-2021 10:30:43"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 0,
+            "category_id": 1,
+            "iscrowd": 0,
+            "image_id": 0,
+            "area": 256.0,
+            "bbox": [
+                107,
+                112,
+                16,
+                16
+            ]
+        },
+        {
+            "id": 1,
+            "category_id": 1,
+            "iscrowd": 0,
+            "image_id": 0,
+            "area": 256.0,
+            "bbox": [
+                132,
+                70,
+                16,
+                16
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "lymphocytes and plasma cells"
+        }
+    ]
+}

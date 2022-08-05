@@ -1,0 +1,1 @@
+In this folder the model files should be placed for segmentation.
