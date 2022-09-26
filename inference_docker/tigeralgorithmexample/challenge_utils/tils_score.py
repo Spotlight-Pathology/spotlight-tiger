@@ -11,6 +11,7 @@ from .tile_utils import get_downscaled_img
 from .transforms import convert_xml_to_mask
 from pathlib import Path
 from .utils import timing
+import math
 
 # the lymphocyte score cut-off used
 THRESHOLD = 0.5
@@ -159,6 +160,9 @@ def get_tils_score(
         # if for some reason we did not find any tumour bulk/ stroma
         # til score does not make sense - is undefined
         # set the value to the median
+        ratio = 4.01
+
+    if math.isnan(ratio):
         ratio = 4.01
 
     # convert to [0, 100]
